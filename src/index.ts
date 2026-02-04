@@ -1,7 +1,7 @@
 import { FundaScraper } from './scraper.js';
 import { FundaRESTAPIScraper } from './api-scraper.js';
 import type { SearchOptions } from './types.js';
-import { createLogger } from '@shared/logger';
+import { createLogger } from './logger';
 
 const logger = createLogger('module');
 

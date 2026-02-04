@@ -13,7 +13,7 @@
  */
 
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
-import { ScraperLogger } from '@shared/logger.js';
+import { ScraperLogger } from './logger';
 import type {
   FundaListingResponse,
   FundaPropertyData,

@@ -12,7 +12,7 @@
  * - Full error handling and retry logic
  */
 
-import { ScraperLogger } from '@shared/logger.js';
+import { ScraperLogger } from './logger';
 import { FundaAPIClient } from './api-client.js';
 import { normalizePropertyFromAPI } from './parser.js';
 import type {

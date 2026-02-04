@@ -1,5 +1,5 @@
 import { chromium, Browser, BrowserContext, Page } from 'playwright';
-import { ScraperLogger } from '@shared/logger.js';
+import { ScraperLogger } from './logger';
 import { normalizeProperty, extractListingsFromPage } from './parser.js';
 import type { FundaConfig, SearchOptions, FundaProperty, TransactionType, CityInfo, PageListing } from './types.js';
 
